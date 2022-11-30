@@ -1,0 +1,22 @@
+{
+    "name": "osvaldomonsalvo/bienes-raices_mvc_php",
+    "description": "Proyecto utilizando MVC-PHP, js, html, css-sass ",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Osvaldo Monsalvo",
+            "email": "monsalvoosvaldo18@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+        "phpmailer/phpmailer": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    }
+}
