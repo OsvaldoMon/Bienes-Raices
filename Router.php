@@ -24,7 +24,7 @@ class Router {
  
         
         //Arreglo de Rutas Protegidas
-         $rutas_protegidas = ['/admin', '/propiedades/crear', '/propiedades/actualizar', '/propiedades/eliminar', '/vendedores/crear', '/vendedores/actualizar', '/vendedores/eliminar']; //protege las url de las páginas privadas
+         $rutas_protegidas = ['/vendedores/eliminar']; //protege las url de las páginas privadas
         
         $urlActual = $_SERVER['PATH_INFO'] ?? '/';
         $metodo = $_SERVER['REQUEST_METHOD'];
